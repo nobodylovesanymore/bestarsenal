@@ -1,0 +1,11 @@
+writefile("carti.mp3", game:HttpGet("https://github.com/OuterScripts/OuterScripts/raw/refs/heads/main/carti.mp3"))
+
+local ss = game:GetService("SoundService")
+local music = Instance.new("Sound")
+
+music.SoundId = getcustomasset("carti.mp3")
+music.Parent = ss
+music.Looped = true
+music.Volume = 100
+
+music:Play();
