@@ -40,7 +40,7 @@ getgenv().Aimbot = {
     Keybind = 'C',
     Hitpart = 'Head',
     ['Prediction'] = {
-        X = 0.090001,
+        X = 0.080001,
         Y = 0,
     },
 }
